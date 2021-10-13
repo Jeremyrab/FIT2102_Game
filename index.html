@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <style>
+        @import url(style.css);
+
+        p.highlight {
+            color: red;
+        }
+
+        svg {
+            background-color: rgb(41, 41, 36);
+        }
+    </style>
+    <script src="./dist/spaceinvaders.js"></script>
+</head>
+
+<body>
+    <h1>Space Invaders</h1>
+    <svg id="canvas" width="600" height="600">
+        <text x="8" y="45" id="pointCounter"></text>
+        <text x="500" y="25" class="smallHeader" id="levelNumber"></text>
+        <text x="500" y="45" class="smallHeader" id="livesCounter"></text>
+        <text x= "100" y= "300" id= "gameover"></text>
+        <g id="ship" transform="translate(0,550)">
+            <polygon points="0,24 0,12 3,12 3,9 12,9 12,3 15,3 15,0 18,0 18,3 21,3 21,9 30,9 30,12 33,12 33,24"
+                style="fill:lime">
+            </polygon>
+        </g>
+        <g id="player_bullet" class="hidden" transform="translate(0,0)">
+            <rect style="fill:white; opacity: inherit;" height="12px" width="3px"></rect>
+        </g>
+    </svg>
+    <h2>Controls</h2>
+    <h3>Left Arrow: Move Left<br>
+        Right Arrow: Move Right<br>
+        Space: Shoot<br>
+        R : Reset
+    </h3>
+    <h2>Point Shop (Press these buttons to purchase the following effect at the cost of your points)</h2>
+    <h3>Z: Regenerate Shields (5 Points)<br>
+        X: Extra Life (10 Points)<br>
+        A: Shoot Piercing Bullet Next (15 Points)<br>
+        S: Shoot Wide Bullet Next (15 Points)<br>
+    </h3>
+</body>
+
+</html>
+</body>
+
+</html>
