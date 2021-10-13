@@ -1,0 +1,29 @@
+BODY, H2, H3, H4, H5, H6, TH, TD {
+font-family: arial, helvetica, sans-serif;
+}
+H1 {
+    font-size: 38px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#gameover {
+  font-family:sans-serif;
+  font-size:80px;
+  fill:red;
+}
+
+#pointCounter {
+  font-family:sans-serif;
+  font-size:40px;
+  fill:lime;
+}
+
+.smallHeader {
+  font-family:sans-serif;
+  font-size:20px;
+  fill:lime;
+}
